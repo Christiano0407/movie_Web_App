@@ -21,12 +21,86 @@
     --font-family-Prom: 'Prompt', sans-serif;
     --font-family-Mon: 'Montserrat', sans-serif;
     /* == Font Size*/
+    --font-size-title: 2.4rem;
+    --font-size-title-two: 2rem;
+    --font-size-title-three: 1.8rem;
+    --font-size-medium: 1.6rem;
+    --font-size-normal: 1.4rem;
+    --font-size-text: 1.2rem;
+
+    /* === Weight ==*/
+    --font-weight-title1: 800;
+    --font-weight-title2: 700;
+    --font-weight-text1: 400;
+    --font-weight-text2: 500;
 
     /* == Margin*/
+    --margin: 2rem auto;
+    --margin-right: 1.5rem;
+    --margin-left: 1.5rem;
+    --margin-bottom: 2rem;
+
+    /* == Padding*/
+    --padding: 1rem;
+    --padding-two: 2rem 4rem;
 
     /* == Transition*/
+
 }
 
 /** ==== CSS Style General ===*/
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.4%;
+}
+
+/* =Animation =*/
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+p,
+span {
+    letter-spacing: 0.1rem;
+}
+
+h1,
+h2 {
+    margin: var(--margin);
+}
+
 
 /** === ==== ==== Project Movie CSS*/
