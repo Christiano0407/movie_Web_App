@@ -2,10 +2,43 @@
 @media (max-width: 360px) {}
 
 /*=============== Mobile ========================================*/
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+    .nav {
+        position: absolute;
+        top: 100px;
+        left: 100px;
+        height: 250px;
+        outline: 2px solid #fff;
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-list {
+        flex-direction: column;
+    }
+
+    .nav-link {
+        font-size: 2rem;
+    }
+
+    .header-menu {
+        font-size: 2rem;
+        padding: 1rem;
+        color: #fff;
+        cursor: pointer;
+    }
+}
 
 /*=============== #Option ========================================*/
-@media (min-width: 700px) {}
+@media (min-width: 700px) {
+    .header-menu {
+        display: none;
+    }
+
+    .header-menu {
+        display: none;
+    }
+}
 
 /*=============== Tablet  ========================================*/
 @media screen and (min-width: 768px) {}

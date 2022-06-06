@@ -12,7 +12,129 @@
 </head>
 
 <body>
+    <!--  == Header ==-->
+    <header id="header" class="header-container">
+        <div class="containerNew">
+            <div class="overlay" data-overlay></div>
+            <a href="#" id="headerMenu" class="header-menu"><i class="fa-solid fa-bars"></i></a>
+            <h1 class="containerNew-logo">MoviePlay</h1>
+            <nav class="nav .active" id="navId">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#" class="nav-link">Movies</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Programs</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Series</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Streaming</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">MyList</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="movie-principal">
+            <div class="container">
+                <!--  <div class="container-column">
+                    <span class="header-arrow inactive">&lt;</span>
+                    <h1 class="header-title header-title--categoryView inactive">Acción</h1>
+                    <h1 class="container-titleMovie">Bienvenidos</h1>
+                    <p>Millones de palículas, series, programas, streaming y mundo por descubrir. Explorar Ahora</p>
+                    <form id="searchForm" class="header-searchForm">
+                        <input type="text" placeholder="Search.... " />
+                        <button id="searchBtn">🔍</button>
+                    </form>
+                </div> -->
+            </div>
+        </div>
+        <!--  == =====  Section Trending Preview ==== 01 ADD Javascript  ==-->
+        <section id="trendingPreview" class="trendingPreview-container">
+            <div class="trendingPreview-header">
+                <h2 class="trendingPreview-title">Tendencias</h2>
+                <button class="trendingPreview-btn">Ver más</button>
+            </div>
 
+            <article class="trendingPreview-movieList">
+                <!-- <div class="movie-container">
+            <img
+              src="https://image.tmdb.org/t/p/w300/adOzdWS35KAo21r9R4BuFCkLer6.jpg"
+              class="movie-img"
+              alt="Nombre de la película"
+            />
+          </div> -->
+            </article>
+        </section>
+        <!--  == =====  Category Preview ==== 02  ==-->
+        <section id="categoriesPreview" class="categoriesPreview-container">
+            <h2 class="categoriesPreview-title">Categorías</h2>
+
+            <article class="categoriesPreview-list" id="categoriesPreviewList">
+                <!-- <div class="category-container">
+            <h3 id="id28" class="category-title">Romance</h3>
+          </div> -->
+            </article>
+        </section>
+        <!--  == =====  Generic List Container ==== 03  ==-->
+        <section id="genericList" class="genericList-container inactive">
+            <div class="movie-container">
+                <img src="https://image.tmdb.org/t/p/w300/adOzdWS35KAo21r9R4BuFCkLer6.jpg" class="movie-img"
+                    alt="Nombre de la película" />
+            </div>
+
+            <div class="movie-container">
+                <img src="https://image.tmdb.org/t/p/w300/adOzdWS35KAo21r9R4BuFCkLer6.jpg" class="movie-img"
+                    alt="Nombre de la película" />
+            </div>
+
+            <div class="movie-container">
+                <img src="https://image.tmdb.org/t/p/w300/adOzdWS35KAo21r9R4BuFCkLer6.jpg" class="movie-img"
+                    alt="Nombre de la película" />
+            </div>
+        </section>
+        <!--  == =====  Movie Details Container 04  ====  ==-->
+        <section id="movieDetail" class="movieDetail-container inactive">
+            <h1 class="movieDetail-title">Deadpool</h1>
+            <span class="movieDetail-score">7.6</span>
+            <p class="movieDetail-description">
+                Wisecracking mercenary Deadpool battles the evil and powerful Cable and other bad guys to save a boy's
+                life.
+            </p>
+
+            <article class="categories-list">
+                <div class="category-container">
+                    <h3 id="id28" class="category-title">Romance</h3>
+                </div>
+
+                <div class="category-container">
+                    <h3 id="id16" class="category-title">Drama</h3>
+                </div>
+
+                <div class="category-container">
+                    <h3 id="id14" class="category-title">Acción</h3>
+                </div>
+            </article>
+
+            <article class="relatedMovies-container">
+                <h2 class="relatedMovies-title">Películas similares</h2>
+
+                <div class="relatedMovies-scrollContainer">
+                    <div class="movie-container">
+                        <img src="https://image.tmdb.org/t/p/w300/adOzdWS35KAo21r9R4BuFCkLer6.jpg" class="movie-img"
+                            alt="Nombre de la película" />
+                    </div>
+
+                    <div class="movie-container">
+                        <img src="https://image.tmdb.org/t/p/w300/adOzdWS35KAo21r9R4BuFCkLer6.jpg" class="movie-img"
+                            alt="Nombre de la película" />
+                    </div>
+
+                    <div class="movie-container">
+                        <img src="https://image.tmdb.org/t/p/w300/adOzdWS35KAo21r9R4BuFCkLer6.jpg" class="movie-img"
+                            alt="Nombre de la película" />
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <footer class="footer">Hecho con amor para el curso de API REST con Platzi por @Chris04</footer>
+    </main>
 
     <script src="./src/js/index.js"></script>
 </body>

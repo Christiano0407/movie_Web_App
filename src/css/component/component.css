@@ -16,3 +16,7 @@ button:hover {
 button:active {
     transform: scale(0.9);
 }
+
+.header-menu:active {
+    transform: scale(0.9);
+}
