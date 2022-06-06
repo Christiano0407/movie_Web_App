@@ -30,6 +30,12 @@
 }
 
 /*=============== #Option ========================================*/
+@media (min-width: 481px) {
+    .header-menu {
+        display: none;
+    }
+}
+
 @media (min-width: 700px) {
     .header-menu {
         display: none;
