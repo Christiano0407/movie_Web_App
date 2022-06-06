@@ -42,6 +42,21 @@ Create Movie Web Responsive and One App Movie with Javascript.
 
 - [font Google](https://fonts.google.com/)
 
+## Design System
+
+> Palette Color
+
+- #056CF2
+- #0A4DA6
+- #1DF2DD
+- #D9D9D9
+- #0D0D0D
+
+> Font Family
+
+- font-principal:  Montserrat;
+- font-secundary: Prompt;
+
 # MIT LICENSE
 
 MIT License
