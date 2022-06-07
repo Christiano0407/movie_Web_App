@@ -15,3 +15,14 @@ const addOpen = [btnMenuOpen, menuClose, overlay];
   });
 }
  */
+btnMenuOpen.addEventListener("click", () => {
+  console.log("Btn");
+
+  if (navBar) {
+    navBar.classList.toggle("visibility");
+    navBar.classList.remove("inactive");
+  } else {
+    navBar.classList.remove("visibility");
+    navBar.classList.toggle("inactive");
+  }
+});

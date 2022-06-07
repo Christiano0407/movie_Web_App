@@ -104,6 +104,10 @@
     .header-arrow {
         display: none;
     }
+
+    .categoriesPreview-container {
+        margin-top: 2rem;
+    }
 }
 
 /*=============== #Option ========================================*/
