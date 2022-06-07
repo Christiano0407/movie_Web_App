@@ -2,6 +2,11 @@
 
 Create Movie Web Responsive and One App Movie with Javascript.
 
+# Gitignore
+
+> Ignore  gitignore
+> "add .gitignore"
+
 # Platzi
 
 > Course API REST
