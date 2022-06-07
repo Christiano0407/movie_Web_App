@@ -3,6 +3,10 @@
 
 /*=============== Mobile ========================================*/
 @media (max-width: 480px) {
+    #header {
+        box-shadow: 1px 2px 20px 1px #333;
+    }
+
     #navId {
         width: 70%;
     }
@@ -49,6 +53,56 @@
 
     #moviePrincipal {
         background-position: center;
+        display: flex;
+        align-items: center;
+    }
+
+    #containerColumn {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-titleMovie {
+        font-size: 3.5rem;
+        font-weight: 800;
+        margin: 0%;
+        padding: 1rem;
+        text-align: center;
+        color: #fff;
+    }
+
+    .container-textMovie {
+        color: #fff;
+        filter: opacity(0.6);
+        padding: 1rem;
+        font-size: 1.2rem;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #searchForm {
+        margin: 1rem auto;
+        width: 80%;
+    }
+
+    #searchForm input {
+        height: 0;
+        padding: 2rem;
+    }
+
+    #searchBtn {
+        height: 0;
+        margin-left: 1rem;
+        padding: 2rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .header-arrow {
+        display: none;
     }
 }
 
