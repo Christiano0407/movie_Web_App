@@ -194,7 +194,7 @@ body {
     font-weight: 600;
 }
 
-.overlay {
+.overlay.active {
     position: fixed;
     inset: 0;
     background: #333;

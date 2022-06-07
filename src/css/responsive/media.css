@@ -3,29 +3,52 @@
 
 /*=============== Mobile ========================================*/
 @media (max-width: 480px) {
+    #navId {
+        width: 70%;
+    }
+
     .nav {
         position: absolute;
         top: 100px;
-        left: 100px;
-        height: 250px;
+        left: 15%;
+        height: 280px;
         outline: 2px solid #fff;
+        border-radius: 1rem;
         display: flex;
         justify-content: center;
+        z-index: 5;
+        visibility: hidden;
+    }
+
+    .nav.active {
+        visibility: visible;
+        transition: 0.25s ease-in-out;
     }
 
     .nav-list {
         flex-direction: column;
     }
 
-    .nav-link {
+    #navLink {
         font-size: 2rem;
     }
 
     .header-menu {
-        font-size: 2rem;
+        font-size: 1.5rem;
         padding: 1rem;
         color: #fff;
         cursor: pointer;
+        position: absolute;
+        padding: 1rem;
+        background: transparent;
+    }
+
+    .header-menu.active {
+        background: transparent;
+    }
+
+    #moviePrincipal {
+        background-position: center;
     }
 }
 
