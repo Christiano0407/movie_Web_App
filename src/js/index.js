@@ -19,7 +19,31 @@ btnMenuOpen.addEventListener("click", () => {
 
 //** === Movie Project == */
 //*! ==== AXIOS API REST ====  */
+const getMoviesTrending = async () => {
+  try {
+    const response = await fetch(
+      `https://api.themoviedb.org/3/trending/movie/day?api_key=${API_KEY}`
+    );
+    const data = await response.json();
+    const movies = data.results;
+    console.log(movies);
+
+    movies.forEach((movie) => {
+      const trendingPreview = document.querySelector(
+        "#trendingPreview .trendingPreview-movieList"
+      );
+
+      const movieContainer = document.createElement("div");
+      movieContainer.classList.add("movie-container");
+
+      const movieImg = document.createElement("img");
+    });
+  } catch (error) {
+    console.log("No se puede acceder!");
+  }
+};
 
 //*? ==== Get Trending Movies ====  */
 
 //*! === Call Functions / Llamar a funciones ======= */
+getMoviesTrending();
